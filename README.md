@@ -30,6 +30,9 @@ Here is how fast the original code works versus the refactored code.
 ![original](/Resources/oldcode.png)
 ![refactor](/Resources/newcode.png)
 As we can see here, the refactored code clocks in at less than 0.1 second meanwhile the original code takes half a second, which is a significant difference.
-
+### Photo of working code
+![results2017](/Resources/result2017)
+![results2018](/Resources/result2018)
 ## Summary
+
 An advantage of refactoring code is that you are able to take already existing code and make it more efficient. There is more to gain from proper code refactoring than to not do it. A disadvantage is just the fact that it is time consuming and the code may work fine without it.
