@@ -5,6 +5,7 @@ The purpose of this analysis is to refactor a VBA script with the goal of making
 ## Results
 #### Ticker Index
 ![TickerIndex](/Resources/index.png)
+
 I began by declaring a variable "TickerIndex" set equal to zero. This will help us in our loop later on.
 
 #### Arrays
