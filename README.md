@@ -22,12 +22,11 @@ Here is the first for loop to initialize our tickerVolumes array so that all obj
 
 Here is a loop that loops over every row and fills the tickerVolumes array with each ticker having its totalVolume.It also checks whether the row selected is either a starting or ending price, then puts them in their according arrays for every ticker.
 #### Formatting
-![format](/Resources/longloop.png)
-
+![format](/Resources/format.png)
 For the formatting, another for loop was used to add tickers to the column in the all stocks analysis sheet, count the total volume for each ticker, and give us the return for the year. Below is some more formatting to give the chart some visual representation. 
 Here is how fast the original code work versus the refactored code.
-
-imge
+![original](/Resources/oldcode.png)
+![refactor](/Resources/newcode.png)
 
 ## Summary
 An advantage of refactoring code is that you are able to take already existing code and make it more efficient. There is more to gain from proper code refactoring than to not do it. A disadvantage is just the fact that it is time consuming and the code may work fine without it.
