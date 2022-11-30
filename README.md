@@ -4,7 +4,7 @@
 The purpose of this analysis is to refactor a VBA script with the goal of making it more efficient.The VBA script has the job of separating all the tickers and finding the total volume and yearly return of each company for the year.The run time of the original code is around ~0.5 seconds, so we are hoping to reduce that significantly with the refactor.
 ## Results
 #### Ticker Index
-
+![TickerIndex](vba-analysis/Resources/index.png)
 I began by declaring a variable "TickerIndex" set equal to zero. This will help us in our loop later on.
 
 #### Arrays
