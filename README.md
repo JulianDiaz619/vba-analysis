@@ -8,7 +8,7 @@ The purpose of this analysis is to refactor a VBA script with the goal of making
 I began by declaring a variable "TickerIndex" set equal to zero. This will help us in our loop later on.
 
 #### Arrays
-img
+![Array](array.png)
 
 Here are three output arrays for tickerVolumes, tickerStartingPrices, and tickerEndingPrices. tickerVolumes will store each tickers total volume, tickerStartingPrices will get the starting price, and tickerEndingPrices will get the ending price so that we are able to calculate that years return of each company.
 #### tickerVolumes to zero
