@@ -14,14 +14,16 @@ I began by declaring a variable "TickerIndex" set equal to zero. This will help 
 Here are three output arrays for tickerVolumes, tickerStartingPrices, and tickerEndingPrices. tickerVolumes will store each tickers total volume, tickerStartingPrices will get the starting price, and tickerEndingPrices will get the ending price so that we are able to calculate that years return of each company.
 #### tickerVolumes to zero
 
-img
-
 Here is the first for loop to initialize our tickerVolumes array so that all objects in the array are equal to zero.
+![zeroloop](/Resources/tickervolumes.png)
 #### Looping over the rows
-img
+
+![loop](/Resources/longloop.png)
 
 Here is a loop that loops over every row and fills the tickerVolumes array with each ticker having its totalVolume.It also checks whether the row selected is either a starting or ending price, then puts them in their according arrays for every ticker.
 #### Formatting
+![format](/Resources/longloop.png)
+
 For the formatting, another for loop was used to add tickers to the column in the all stocks analysis sheet, count the total volume for each ticker, and give us the return for the year. Below is some more formatting to give the chart some visual representation. 
 Here is how fast the original code work versus the refactored code.
 
