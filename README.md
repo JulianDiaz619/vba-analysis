@@ -26,9 +26,10 @@ Here is a loop that loops over every row and fills the tickerVolumes array with 
 For the formatting, another for loop was used to add tickers to the column in the all stocks analysis sheet, count the total volume for each ticker, and give us the return for the year. 
 
 ### Original VS Refactor
-Here is how fast the original code work versus the refactored code.
+Here is how fast the original code works versus the refactored code.
 ![original](/Resources/oldcode.png)
 ![refactor](/Resources/newcode.png)
+As we can see here, the refactored code clocks in at less than 0.1 second meanwhile the original code takes half a second, which is a significant difference.
 
 ## Summary
 An advantage of refactoring code is that you are able to take already existing code and make it more efficient. There is more to gain from proper code refactoring than to not do it. A disadvantage is just the fact that it is time consuming and the code may work fine without it.
